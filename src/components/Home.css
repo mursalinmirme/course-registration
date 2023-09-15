@@ -1,0 +1,7 @@
+.home{
+    width: 1330px;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+}

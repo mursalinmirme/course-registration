@@ -1,6 +1,22 @@
-.course-logo{
+
+.header{
+    width: 1330px;
+    margin: 0 auto;
+}
+.header-wrapper{
+    width: 984px;
+}
+.header .header-wrapper .course-logo{
     color: #1C1B1B;
     text-align: center;
     font-size: 30px;
     font-weight: 700;
 }
+
+
+
+
+
+
+
+

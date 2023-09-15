@@ -1,0 +1,75 @@
+.single-card{
+    width: 312px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid rgba(28, 27, 27, 0.20);
+}
+.single-card .course-img{
+    width: 100%;
+}
+.single-card .course-title{
+    font-size: 18px;
+    margin: 10px 0;
+    color: #1C1B1B;
+    font-weight: 600;
+}
+.single-card .course-desc{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(28, 27, 27, 0.60);
+    margin: 10px 0;
+    line-height: 24px;
+}
+.single-card .price-and-credit-wraper{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.single-card .price-and-credit-wraper .price-wrapper{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.single-card .price-and-credit-wraper .price-wrapper span{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(28, 27, 27, 0.60);
+}
+
+.single-card .price-and-credit-wraper .credit-wrapper{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.single-card .price-and-credit-wraper .credit-wrapper span{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(28, 27, 27, 0.60);
+}
+.single-card .select-btn{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 9px 0;
+    border-radius: 8px;
+    color: #ffffff;
+    background: #2F80ED;
+    border: none;
+    outline: nonw;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
