@@ -60,6 +60,10 @@
     outline: nonw;
     margin-top: 5px;
 }
+.single-card .select-btn:hover{
+    background: #4f96f3;
+
+}
 
 
 
