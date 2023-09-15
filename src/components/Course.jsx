@@ -1,6 +1,6 @@
 import './Course.css';
 import PropTypes from 'prop-types';
-const Course = ({course}) => {
+const Course = ({course, handleSelectBtn}) => {
     return (
         <div className="single-card">
             <img className="course-img" src={course.img} alt="" />
@@ -16,11 +16,12 @@ const Course = ({course}) => {
                     <span>Credit: {course.credit}hr</span>
                 </div>
             </div>
-            <button className="select-btn">Select</button>
+            <button onClick={() => handleSelectBtn(course)} className="select-btn">Select</button>
         </div>
     );
 };
 Course.propTypes = {
-    course: PropTypes.object.isRequired
+    course: PropTypes.object.isRequired,
+    handleSelectBtn: PropTypes.func.isRequired
 }
 export default Course;

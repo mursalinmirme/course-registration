@@ -1,25 +1,17 @@
 import Course from "./Course";
 import './Courses.css';
 import PropTypes from 'prop-types';
-const Courses = ({courses}) => {
+const Courses = ({courses, handleSelectBtn}) => {
     return (
         <div className="courses-container">
             {
-                courses.map((course, idx) => <Course key={idx} course={course}></Course>)
+                courses.map((course, idx) => <Course key={idx} course={course} handleSelectBtn={handleSelectBtn}></Course>)
             }
-            {/* <Course></Course>
-            <Course></Course>
-            <Course></Course>
-            <Course></Course>
-            <Course></Course>
-            <Course></Course>
-            <Course></Course>
-            <Course></Course>
-            <Course></Course> */}
         </div>
     );
 };
 Courses.propTypes = {
-    courses: PropTypes.object.isRequired
+    courses: PropTypes.array.isRequired,
+    handleSelectBtn: PropTypes.func.isRequired
 }
 export default Courses;
