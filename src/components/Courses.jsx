@@ -1,8 +1,13 @@
 import Course from "./Course";
 import './Courses.css';
-const Courses = () => {
+import PropTypes from 'prop-types';
+const Courses = ({courses}) => {
     return (
         <div className="courses-container">
+            {
+                courses.map((course, idx) => <Course key={idx} course={course}></Course>)
+            }
+            {/* <Course></Course>
             <Course></Course>
             <Course></Course>
             <Course></Course>
@@ -10,10 +15,11 @@ const Courses = () => {
             <Course></Course>
             <Course></Course>
             <Course></Course>
-            <Course></Course>
-            <Course></Course>
+            <Course></Course> */}
         </div>
     );
 };
-
+Courses.propTypes = {
+    courses: PropTypes.object.isRequired
+}
 export default Courses;

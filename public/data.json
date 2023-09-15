@@ -5,23 +5,23 @@
         "course_name": "Introduction to C Programming",
         "credit": 1,
         "price": 15000,
-        "course_desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "course_desc": "Begin your coding journey by mastering C programming's fundamentals for a strong foundation in programming skills."
       },
       {
         "id": 2,
-        "img": "https://i.ibb.co/3zq3Ffb/Rectangle-2-2.png",
+        "img": "https://i.ibb.co/gmxQdrT/Rectangle-2-3.png",
         "course_name": "Introduction to Algorithms",
         "credit": 2,
         "price": 25000,
-        "course_desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "course_desc": "Explore algorithmic concepts for efficient problem-solving. Unlock the power of algorithms in less time."
       },
       {
         "id": 3,
-        "img": "https://i.ibb.co/3zq3Ffb/Rectangle-2-2.png",
+        "img": "https://i.ibb.co/pvxWmMn/Rectangle-2-4.png",
         "course_name": "Introduction to C++ for DSA",
         "credit": 10,
         "price": 10000,
-        "course_desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "course_desc": "Learn C++ essentials for Data Structures and Algorithms. Boost your coding skills efficiently."
       },
       {
         "id": 4,
@@ -29,7 +29,7 @@
         "course_name": "Basic Data Structures",
         "credit": 5,
         "price": 35000,
-        "course_desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "course_desc": "Build a solid foundation in essential data structures. Elevate your coding prowess efficiently."
       },
       {
         "id": 5,
@@ -37,7 +37,7 @@
         "course_name": "Introduction to OOP Python",
         "credit": 5,
         "price": 19000,
-        "course_desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "course_desc": "Dive into Python's Object-Oriented Programming. Unlock the potential of OOP for efficient software development."
       },
       {
         "id": 6,
@@ -45,7 +45,7 @@
         "course_name": "Software Engineering",
         "credit": 2,
         "price": 23000,
-        "course_desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "course_desc": "Master the art of software engineering. Learn industry best practices for efficient and effective software development."
       },
       {
         "id": 7,
@@ -53,7 +53,7 @@
         "course_name": "AWS, Cloud Computing",
         "credit": 5,
         "price": 35000,
-        "course_desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "course_desc": "Explore AWS and cloud computing. Harness the power of cloud technology for scalable and cost-effective solutions."
       },
       {
         "id": 8,
@@ -61,15 +61,15 @@
         "course_name": "Database (MySQL)",
         "credit": 5,
         "price": 19000,
-        "course_desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "course_desc": "Dive into MySQL database management. Learn to design, query, and manage data efficiently with MySQL."
       },
       {
         "id": 9,
-        "img": "https://i.ibb.co/1z1Jm4D/Rectangle-2-1.png",
+        "img": "https://i.ibb.co/tKgZdSj/Rectangle-2-6.png",
         "course_name": "Problem-Solving Part",
         "credit": 2,
         "price":23000,
-        "course_desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        "course_desc": "Improve problem-solving prowess with efficient techniques for coding challenges and algorithmic puzzles mastery."
       }
     ]
   
