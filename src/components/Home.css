@@ -5,3 +5,30 @@
     display: flex;
     gap: 20px;
 }
+
+@media screen and (max-width: 780px) {
+    .home{
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .home{
+        width: 100%;
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

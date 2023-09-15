@@ -65,6 +65,17 @@
 
 }
 
+@media screen and (max-width: 780px) {
+    .single-card{
+        width: 312px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .single-card{
+        width: 100%;
+    }
+}
 
 
 

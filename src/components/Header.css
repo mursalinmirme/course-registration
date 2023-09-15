@@ -13,7 +13,30 @@
     font-weight: 700;
 }
 
+@media screen and (max-width: 780px) {
+    .header{
+        width: 100%;
+    }
+    .header-wrapper{
+        width: 100%;
+    }
+    .header .header-wrapper .course-logo{
+        font-size: 25px;
+    }
+}
 
+@media screen and (max-width: 425px) {
+    .header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header-wrapper{
+        width: 100%;
+    }
+    .header .header-wrapper .course-logo{
+        font-size: 22px;
+    }
+}
 
 
 
